@@ -1,0 +1,33 @@
+.movies_section {
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  background-color: rgb(60, 60, 60);
+
+  .movies_section_content {
+    text-align: center;
+    width: 500px;
+    height: 100%;
+      h1 {
+        margin-top: 40px;
+        color: #ffffff;
+      }
+      p {
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+        color: #ffffff;
+      }
+      img {
+        width: 500px;
+        height: 450px;
+        object-fit: contain;
+        cursor: pointer;
+      }
+      img:hover {
+        transform: scale(1.2);
+      }
+    }
+  }

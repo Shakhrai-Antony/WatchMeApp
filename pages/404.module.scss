@@ -1,0 +1,20 @@
+.error_section {
+  text-align: center;
+  margin-top: 50px;
+  .error_number {
+    color: red;
+  }
+  .error_description {
+    color: blue;
+  }
+  button {
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid #eab;
+    border-radius: 50px;
+    background: transparent;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+}

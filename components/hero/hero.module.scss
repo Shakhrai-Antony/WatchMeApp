@@ -1,0 +1,27 @@
+.hero{
+  display: block;
+  text-align: center;
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  h1 {
+    margin: 5px 0;
+  }
+  p{
+    margin: 5px 0;
+  }
+  button{
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid #eab;
+    border-radius: 50px;
+    background: transparent;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  button:hover {
+    transform:scale(1.2);
+  }
+}
